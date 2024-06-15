@@ -9,7 +9,7 @@ from dash.dependencies import (Input, Output, State)
 from image_ops_scratch import (ImageOperations, read_image_string)
 
 
-########################################
+###########################################
 external_stylesheets = [
     'https://codepen.io/chriddyp/pen/bWLwgP.css'
 ]
@@ -18,7 +18,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.config['suppress_callback_exceptions'] = True
 app.title = 'Image Processing App'
 server = app.server
-########################################
+###########################################
 
 image_ops = ['None', 'Equalize', 'Flip', 'Mirror', 'Binarize', 'Invert', 'Solarize']
 
