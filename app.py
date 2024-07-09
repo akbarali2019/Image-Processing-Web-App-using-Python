@@ -197,7 +197,8 @@ def get_operated_image(contents, image_mode, operation, filenames, dates):
         output_result = html.Div([
             dcc.Graph(id='out-op-img', figure=out_image_fig)
         ], style={'paddingTop' : 50})
-
+        
+        #return html.Div([{" "}])
         return output_result
 
 
